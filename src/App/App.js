@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import HomePage from '../components/home/HomePage';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <h1>E-Commerce-React-App</h1>
+      <HomePage />
     </div>
   );
 }
